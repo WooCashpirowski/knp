@@ -113,3 +113,4 @@ function clearModal(e) {
 choices.forEach(choice => choice.addEventListener("click", play));
 window.addEventListener("click", clearModal);
 restart.addEventListener("click", restartGame);
+restart.addEventListener("touchstart", restartGame);
