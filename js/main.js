@@ -65,7 +65,7 @@ function showWinner(winner, computerChoice) {
       <i class="fas fa-times"></i>
       <h1 class="text-win">Wygrywasz!</h1>
       <i class="fas fa-hand-${computerChoice} fa-10x"></i>
-      <p>Computer Chose <strong>${computerChoice.charAt(0).toUpperCase() +
+      <p>Komputer wybrał <strong>${computerChoice.charAt(0).toUpperCase() +
         computerChoice.slice(1)}</strong></p>
     `;
   } else if (winner === "computer") {
@@ -74,7 +74,7 @@ function showWinner(winner, computerChoice) {
       <i class="fas fa-times"></i>
       <h1 class="text-lose">Przegrywasz!</h1>
       <i class="fas fa-hand-${computerChoice} fa-10x"></i>
-      <p>Computer Chose <strong>${computerChoice.charAt(0).toUpperCase() +
+      <p>Komputer wybrał <strong>${computerChoice.charAt(0).toUpperCase() +
         computerChoice.slice(1)}</strong></p>
       `;
   } else {
@@ -82,7 +82,7 @@ function showWinner(winner, computerChoice) {
       <i class="fas fa-times"></i>
       <h1 class="text-win">Remis!</h1>
       <i class="fas fa-hand-${computerChoice} fa-10x"></i>
-      <p>Computer Chose <strong>${computerChoice.charAt(0).toUpperCase() +
+      <p>Komputer wybrał <strong>${computerChoice.charAt(0).toUpperCase() +
         computerChoice.slice(1)}</strong></p>
       `;
   }
