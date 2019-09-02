@@ -23,11 +23,11 @@ function play(e) {
 function getComputerChoice() {
   const rand = Math.random();
   if (rand < 0.34) {
-    return "rock";
+    return "kamień";
   } else if (rand <= 0.67) {
-    return "paper";
+    return "papier";
   } else {
-    return "scissors";
+    return "nożyce";
   }
 }
 
